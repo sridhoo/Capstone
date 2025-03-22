@@ -1,0 +1,15 @@
+version: '3'
+services:
+  flask_api:
+    build: ./flask_api  # Path to Flask API Dockerfile
+    ports:
+      - "5000:5000"
+    restart: always
+
+  streamlit_app:
+    build: ./streamlit_app  # Path to Streamlit Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - flask_api  # Wait for Flask to start first
+    restart: always

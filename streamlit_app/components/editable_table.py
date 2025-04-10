@@ -67,3 +67,5 @@ def show_editable_meal_plan(plan_dict):
                     cols[i].markdown(f"**{meal}**")
                     cols[i].write(desc)
 
+
+

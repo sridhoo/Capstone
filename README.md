@@ -1,3 +1,4 @@
+
 AI Voice-Powered Meal Planner
 Project Overview
 The AI Meal Planner project enables users to generate personalized meal plans based on their health goals and food preferences, driven entirely by voice commands. Users can speak their age, height, weight, gender, health goals, preferred cuisine, and meal type, and the application automatically generates a customized meal plan.
@@ -20,15 +21,6 @@ How It Works
    - Meal Type (e.g., Breakfast, Lunch)
 3. The application generates a personalized meal plan and displays a calorie chart.
 4. Users can download their meal plan as a CSV file.
-Installation
-1. Clone the repository:
-   git clone https://github.com/your-username/ai-voice-meal-planner.git
-2. Navigate to the project directory:
-   cd ai-voice-meal-planner
-3. Install the required packages:
-   pip install -r requirements.txt
-4. Run the application:
-   python -m streamlit run app.py
 Future Enhancements
 - Deploy the application online (Streamlit Sharing / AWS / Azure).
 - Add multilingual speech recognition support.
@@ -40,3 +32,6 @@ Developer
 Sridhar Ravikumar
 LinkedIn: https://www.linkedin.com/
 GitHub: https://github.com/sridhoo
+=======
+# Capstone
+>>>>>>> ea02050 (feat: improved meal planner with functional draft table)

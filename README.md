@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AI Voice-Powered Meal Planner
 Project Overview
 The AI Meal Planner project enables users to generate personalized meal plans based on their health goals and food preferences, driven entirely by voice commands. Users can speak their age, height, weight, gender, health goals, preferred cuisine, and meal type, and the application automatically generates a customized meal plan.
@@ -40,3 +41,6 @@ Developer
 Sridhar Ravikumar
 LinkedIn: https://www.linkedin.com/
 GitHub: https://github.com/sridhoo
+=======
+# Capstone
+>>>>>>> ea02050 (feat: improved meal planner with functional draft table)

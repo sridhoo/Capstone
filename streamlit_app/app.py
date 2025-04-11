@@ -1,5 +1,3 @@
-
-# MAIN
 import streamlit as st
 import requests
 import time
@@ -109,5 +107,4 @@ if submitted:
         st.error(f"🚨 JSON Parsing Error: {e}")
     except Exception as e:
         st.error(f"🚨 Unexpected Error: {e}")
-
 

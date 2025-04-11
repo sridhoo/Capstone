@@ -1,5 +1,5 @@
 import subprocess
-
+## 9vFLEh9HWxgZlFZ3a95L2IFzVqmygqT90cindN6f
 def generate_meal_plan_with_ollama(user_input, days=3):
     prompt = f"""
     Create a {days}-day personalized meal plan based on the following information: "{user_input}".

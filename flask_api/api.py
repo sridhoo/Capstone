@@ -9,6 +9,7 @@ def generate_meal_plan(user_input):
     payload = {
         "model": "mistral",  # Change if you're using a different model
         "prompt": f"Create a healthy meal plan for: {user_input}",
+        "quantize": "q4_K_M",
         "stream": False
     }
     response = requests.post(ollama_url, json=payload)

@@ -52,3 +52,4 @@ def parse_meal_plan(raw_text, days):
         })
     
     return result
+

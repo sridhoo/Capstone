@@ -8,7 +8,7 @@ def generate_meal_plan(user_input):
     ollama_url = "http://localhost:11434/api/generate"  # Ollama's local API endpoint
     payload = {
         "model": "mistral",  # Change if you're using a different model
-        "prompt": f"Create a healthy meal plan for: {user_input}",
+        "prompt":  "",
         "quantize": "q4_K_M",
         "stream": False
     }
